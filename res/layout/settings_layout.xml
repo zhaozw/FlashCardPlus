@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+	    android:background="#202020" >
+     
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	
+	    <TextView
+	        android:id="@+id/testOrderLabel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginStart="20dp"
+	        android:layout_marginTop="20dp"
+	        android:text="@string/test_order"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:textColor="#FFFFFF" />
+	
+	    <View style="@style/blue_line_style" />
+	
+	    <RadioGroup
+	        android:id="@+id/testRadioGroup"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+	
+	        <RadioButton
+	            android:id="@+id/testNewestFirstRadio"
+	            style="@style/settings_radio_button_style"
+	            android:checked="true"
+	            android:text="@string/newest_first" />
+	        
+	        <RadioButton
+	            android:id="@+id/testOldestFirstRadio"
+	            style="@style/settings_radio_button_style"
+	            android:text="@string/oldest_first" />
+	
+	        <RadioButton
+	            android:id="@+id/testRandomRadio"
+	            style="@style/settings_radio_button_style"
+	            android:text="@string/random" />
+	    </RadioGroup>
+	
+	    <TextView
+	        android:id="@+id/studyOrderLabel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginStart="20dp"
+	        android:layout_marginTop="50dp"
+	        android:text="@string/study_order"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:textColor="#FFFFFF" />
+	
+	    <View style="@style/blue_line_style" />
+	
+	    <RadioGroup
+	        android:id="@+id/studyRadioGroup"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="30dp" >
+	
+	        <RadioButton
+	            android:id="@+id/studyNewestFirstRadio"
+	            style="@style/settings_radio_button_style"
+	            android:checked="true"
+	            android:text="@string/newest_first" />
+	
+	        <RadioButton
+	            android:id="@+id/studyOldestFirstRadio"
+	            style="@style/settings_radio_button_style"
+	            android:text="@string/oldest_first" />
+	
+	        <RadioButton
+	            android:id="@+id/studyRandomRadio"
+	            style="@style/settings_radio_button_style"
+	            android:text="@string/random" />
+	    </RadioGroup>
+	
+	    <Button
+	        android:id="@+id/enterSettingsButton"
+	        android:layout_width="170dp"
+	        android:layout_height="50dp"
+	        android:layout_marginBottom="20dp"
+	        android:layout_gravity="center"
+	        android:textColor="#FFFFFF"
+	        android:background="@drawable/button_background"
+	        android:text="@string/ok" />
+	
+	</LinearLayout>
+</ScrollView>
