@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="FlashcardPlusDefault" parent="@style/_FlashcardPlusDefault"/>
+
+  <style name="_FlashcardPlusDefault" parent="android:Theme.Holo.Light.DarkActionBar">
+
+    <item name="android:editTextBackground">@drawable/flashcardplusdefault_edit_text_holo_light</item>
+
+    <item name="android:textColorHighlight">#99005574</item>
+    <item name="android:textSelectHandleLeft">@drawable/flashcardplusdefault_text_select_handle_left</item>
+    <item name="android:textSelectHandleRight">@drawable/flashcardplusdefault_text_select_handle_right</item>
+    <item name="android:textSelectHandle">@drawable/flashcardplusdefault_text_select_handle_middle</item>
+
+    <item name="android:listChoiceIndicatorMultiple">@drawable/flashcardplusdefault_btn_check_holo_light</item>
+
+    <item name="android:listChoiceIndicatorSingle">@drawable/flashcardplusdefault_btn_radio_holo_light</item>
+
+    <item name="android:buttonStyle">@style/ButtonFlashcardPlusDefault</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonFlashcardPlusDefault</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarFlashcardPlusDefault</item>
+
+    <item name="android:listChoiceBackgroundIndicator">@drawable/flashcardplusdefault_list_selector_holo_light</item>
+
+    <item name="android:activatedBackgroundIndicator">@drawable/flashcardplusdefault_activated_background_holo_light</item>
+
+    <item name="android:fastScrollThumbDrawable">@drawable/flashcardplusdefault_fastscroll_thumb_holo</item>
+
+  </style>
+
+</resources>

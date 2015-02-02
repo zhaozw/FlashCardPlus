@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">flashcard+</string>
+    <string name="action_settings">Settings</string>
+    <string name="test">Test Yourself</string>
+    <string name="add">Add New</string>
+    <string name="settings">Settings</string>
+    <string name="study">Study</string>
+    <string name="view_all">View All</string>
+    <string name="test_order">Test Order</string>
+    <string name="study_order">Study Order</string>
+    <string name="random">Random</string>
+    <string name="oldest_first">Oldest First</string>
+    <string name="newest_first">Newest First</string>
+    <string name="data_name">Entry Name or Reference</string>
+    <string name="data_entry">Text</string>
+    <string name="enter">Enter</string>
+    <string name="ok">OK</string>
+    <string name="hint">Text goes here</string>
+    <string name="number_hint">No Entries</string>
+    <string name="test_answer">Corresponding Value</string>
+    <string name="last">Last</string>
+    <string name="answer">Answer</string>
+    <string name="next">Next</string>
+    <string name="delete">Delete</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

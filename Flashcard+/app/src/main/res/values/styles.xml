@@ -1,0 +1,63 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--  Main Menu Button style definition -->
+    <style name="main_menu_button_style">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">.13</item>
+    </style>
+
+
+    <!--  Settings Radio Button Style Definition -->
+    <style name="settings_radio_button_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/flashcardplusdefault_color</item>
+        <item name="android:layout_marginLeft">40dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+
+    <!--  Edit Text Style Definition -->
+    <style name="new_entry_edit_text_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/flashcardplusdefault_color</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+
+    <!--  Blue Line Divide Style Definition -->
+    <style name="blue_line_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:background">@color/flashcardplusdefault_color</item>
+    </style>
+
+
+    <style name="ButtonFlashcardPlusDefault" parent="android:Widget.Holo.Light.Button">
+        <item name="android:background">@drawable/flashcardplusdefault_btn_default_holo_light</item>
+    </style>
+
+    <style name="ImageButtonFlashcardPlusDefault" parent="android:Widget.Holo.Light.ImageButton">
+        <item name="android:background">@drawable/flashcardplusdefault_btn_default_holo_light</item>
+    </style>
+
+    <style name="SeekBarFlashcardPlusDefault" parent="android:Widget.Holo.Light.SeekBar">
+        <item name="android:progressDrawable">@drawable/flashcardplusdefault_scrubber_progress_horizontal_holo_light</item>
+        <item name="android:indeterminateDrawable">@drawable/flashcardplusdefault_scrubber_progress_horizontal_holo_light</item>
+        <item name="android:thumb">@drawable/flashcardplusdefault_scrubber_control_selector_holo_light</item>
+    </style>
+
+</resources>
